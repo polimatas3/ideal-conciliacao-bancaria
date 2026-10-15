@@ -1,0 +1,6 @@
+export const BANKS = Object.freeze({ SICREDI: 'sicredi' })
+export const SOURCES = Object.freeze({ AGROTIS: 'agrotis', SICREDI: 'sicredi' })
+export const TRANSACTION_TYPES = Object.freeze({ CREDIT: 'credit', DEBIT: 'debit' })
+export const MATCH_KINDS = Object.freeze({ AUTO: 'auto', MANUAL: 'manual' })
+export const RUN_STATUSES = Object.freeze({ RUNNING: 'running', COMPLETED: 'completed', FAILED: 'failed' })
+export const RUN_TRIGGERS = Object.freeze({ SCHEDULED: 'scheduled', MANUAL: 'manual' })

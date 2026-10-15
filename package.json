@@ -1,0 +1,11 @@
+{
+  "name": "conciliacao-bancaria-app",
+  "private": true,
+  "workspaces": ["backend", "apps/web"],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build:web": "npm run build --workspace=apps/web",
+    "test:backend": "npm test --workspace=backend"
+  }
+}
